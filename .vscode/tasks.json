@@ -1,0 +1,27 @@
+{
+       // See https://go.microsoft.com/fwlink/?LinkId=733558
+       // for the documentation about the tasks.json format
+       "version": "2.0.0",
+       "tasks": [
+              {
+                     "label": "bb-ll-samples debug",
+                     "type": "shell",
+                     "command": "sh ${workspaceFolder}/.vscode/bb-ll-samples.sh debug",
+                     "problemMatcher": [],
+                     "group": {
+                            "kind": "build",
+                            "isDefault": true
+                     }
+              },
+              {
+                     "label": "bb-ll-samples release",
+                     "type": "shell",
+                     "command": "sh ${workspaceFolder}/.vscode/bb-ll-samples.sh release",
+                     "problemMatcher": [],
+                     "group": {
+                            "kind": "build",
+                            "isDefault": true
+                     }
+              }
+       ]
+}

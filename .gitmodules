@@ -1,0 +1,21 @@
+[submodule "kernel/external/glfw"]
+	path = kernel/external/glfw
+	url = https://github.com/glfw/glfw
+[submodule "kernel/external/glm"]
+	path = kernel/external/glm
+	url = https://github.com/g-truc/glm
+[submodule "kernel/external/assimp"]
+	path = kernel/external/assimp
+	url = https://github.com/assimp/assimp
+[submodule "kernel/external/spdlog"]
+	path = kernel/external/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "kernel/external/vulkan-headers"]
+	path = kernel/external/vulkan-headers
+	url = https://github.com/KhronosGroup/Vulkan-Headers
+[submodule "kernel/external/entt"]
+	path = kernel/external/entt
+	url = https://github.com/skypjack/entt
+[submodule "kernel/external/reactphysics3d"]
+	path = kernel/external/reactphysics3d
+	url = https://github.com/DanielChappuis/reactphysics3d
