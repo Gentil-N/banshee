@@ -1,1 +1,0 @@
-Small game using C/C++ and the vulkan API
